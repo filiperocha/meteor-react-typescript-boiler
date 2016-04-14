@@ -1,8 +1,9 @@
 {
-  "name": "react-typescript-boiler",
+  "name": "meteor-react-typescript-boiler",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "storybook": "start-storybook -p 9001"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
@@ -10,5 +11,8 @@
     "react-dom": "^15.0.1",
     "react-router": "^2.1.1",
     "typings": "^0.7.12"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^1.12.0"
   }
 }
